@@ -1,0 +1,24 @@
+.nav{
+  width: 23%;
+}
+.navbar{
+  a{
+     text-decoration:none;
+     color:black;
+     font-weight: 700;
+  }
+  li:hover{
+    border-left: solid 4px green;
+    color: green;
+    a{
+      color:green
+    }
+  }
+}
+.navbar_img{
+  img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+}

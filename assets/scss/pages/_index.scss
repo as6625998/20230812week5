@@ -1,0 +1,43 @@
+.assignment{
+  width: 77%;
+  .ass_list{
+    padding-top: 5px;
+   }
+}
+.list-group{
+  width: 33.3%;
+}
+span{
+  cursor: pointer;
+}
+.card{
+  width: 70%;
+  img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .card-body{
+    a{
+      border: solid 1px $gray-400;
+    }
+  }
+  ul{
+    background: $gray-100;
+    border: solid 1px $gray-400;
+    li:last-child{
+      transform: rotate(90deg);
+    }
+  }
+  .answer{
+    color: $gray-400;
+    min-height: 263px;
+    input{
+      outline: none;
+      border: none;
+    }
+    button:first-child{
+      margin-right: 7px;
+    }
+  }
+}
