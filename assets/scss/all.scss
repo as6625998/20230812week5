@@ -1,8 +1,9 @@
-@import 'bootstrap/scss/functions';
+@import "../../node_modules/bootstrap/scss/functions";
 @import './complete/reset.scss';
 @import './complete/variables.scss';
-@import 'bootstrap/scss/bootstrap';
+
 
 @import './layout/navbar.scss';
 
 @import './pages/index.scss';
+@import "../../node_modules/bootstrap";
